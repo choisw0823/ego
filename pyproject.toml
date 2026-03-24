@@ -1,0 +1,13 @@
+[project]
+name = "ppagent"
+version = "0.1.0"
+description = "Personalized Parametric Process Memory Agent (EgoLifeCap prototype)"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ppmemory = "ppmemory.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
